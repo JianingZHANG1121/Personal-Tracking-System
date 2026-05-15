@@ -9,10 +9,9 @@ const TC = { background: '#fff', border: '1px solid #e2e7f0', borderRadius: 9, c
 const ACCT_COLORS = ['#4f46e5', '#059669', '#d97706', '#7c3aed', '#2563eb', '#dc2626', '#0891b2', '#be185d']
 
 const CURRENCIES = [
-  { code: 'CNY', symbol: '¥',   label: '人民币 CNY', flag: '🇨🇳' },
-  { code: 'HKD', symbol: 'HK$', label: '港币 HKD',   flag: '🇭🇰' },
-  { code: 'USD', symbol: '$',   label: '美元 USD',   flag: '🇺🇸' },
-  { code: 'JPY', symbol: '¥',   label: '日元 JPY',   flag: '🇯🇵' },
+  { code: 'CNY', symbol: '¥',   label: 'CNY', flag: '🇨🇳' },
+  { code: 'HKD', symbol: 'HK$', label: 'HKD',   flag: '🇭🇰' },
+  { code: 'USD', symbol: '$',   label: 'USD',   flag: '🇺🇸' },
 ]
 
 const getCurrency = code => CURRENCIES.find(c => c.code === code) || CURRENCIES[0]
